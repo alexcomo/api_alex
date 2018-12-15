@@ -9,4 +9,4 @@ while data_list:
     new_list.append(minimum)
     data_list.remove(minimum)
 
-print new_list
+print (new_list)

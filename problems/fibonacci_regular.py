@@ -1,7 +1,7 @@
 def fib(n):
     l = [0]
     a, b = 0, 1
-    for i in xrange(n):
+    for i in range(n):
         l.append(b)
         a,b = b, a+b
     # while b <= n:
@@ -10,4 +10,4 @@ def fib(n):
 
     return l
 
-print fib(8)
+print(fib(8))
